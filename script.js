@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 	const ctx = canvas.getContext('2d');
 	const CANVAS_WIDTH = (canvas.width = 500);
 	const CANVAS_HEIGHT = (canvas.height = 1000);
-	const numberOfEnemies = 10;
+	const numberOfEnemies = 100;
 	const enemiesArray = [];
 
 	let gameFrame = 0;
@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 	class Enemy {
 		constructor() {
 			this.image = new Image();
-			this.image.src = '/assets/enemy1.png';
+			this.image.src = './assets/enemy1.png';
 
 			// this.speed = Math.random() * 4 - 2;
 			this.spriteWidth = 293;
