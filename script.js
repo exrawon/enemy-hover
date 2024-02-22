@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 	const ctx = canvas.getContext('2d');
 	const CANVAS_WIDTH = (canvas.width = 500);
 	const CANVAS_HEIGHT = (canvas.height = 1000);
-	const numberOfEnemies = 100;
+	const numberOfEnemies = 10;
 	const enemiesArray = [];
 
 	let gameFrame = 0;
